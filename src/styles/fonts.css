@@ -1,0 +1,5 @@
+/* Use a pixelated display font for headings and a readable sans for body text */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400;600;700&display=swap');
+
+/* Optional playful accent font kept locally if desired; commented out until added properly */
+/* @import url('https://fonts.googleapis.com/css2?family=Mojangles&display=swap'); */
