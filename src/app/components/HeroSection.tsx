@@ -1,5 +1,7 @@
 import { MinecraftButton } from './MinecraftButton';
 import { Copy } from 'lucide-react';
+import spaceBackground from '../../assets/space-background.png';
+import heroCharacter from '../../assets/hero-character.png';
 
 export function HeroSection() {
   return (
@@ -13,7 +15,7 @@ export function HeroSection() {
         <div 
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: `url('/src/assets/space-background.png')`,
+            backgroundImage: `url(${spaceBackground})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             imageRendering: 'pixelated'
@@ -136,7 +138,7 @@ export function HeroSection() {
           <div className="flex-1 flex items-center justify-center">
             <div className="relative">
               <img 
-                src="/src/assets/hero-character.png"
+                src={heroCharacter}
                 alt="SpaceCraft Character"
                 className="w-64 h-64 md:w-96 md:h-96 object-contain drop-shadow-2xl animate-float"
                 style={{ 

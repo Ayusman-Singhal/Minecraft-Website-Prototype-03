@@ -1,4 +1,8 @@
 import { MinecraftButton } from './MinecraftButton';
+import modeSurvival from '../../assets/mode-survival.png';
+import modePvp from '../../assets/mode-pvp.png';
+import modeMining from '../../assets/mode-mining.png';
+import modeRacing from '../../assets/mode-racing.png';
 
 const modes = [
   {
@@ -8,7 +12,7 @@ const modes = [
     players: '542',
     color: 'from-[#7FFF00] to-[#5FB300]',
     bgColor: 'bg-[#2ECC40]',
-    image: '/src/assets/mode-survival.png'
+    image: modeSurvival
   },
   {
     icon: '⚔️',
@@ -17,7 +21,7 @@ const modes = [
     players: '324',
     color: 'from-[#FF4444] to-[#CC0000]',
     bgColor: 'bg-[#FF4444]',
-    image: '/src/assets/mode-pvp.png'
+    image: modePvp
   },
   {
     icon: '⛏️',
@@ -26,7 +30,7 @@ const modes = [
     players: '218',
     color: 'from-[#00D9FF] to-[#0099CC]',
     bgColor: 'bg-[#00BFFF]',
-    image: '/src/assets/mode-mining.png'
+    image: modeMining
   },
   {
     icon: '🏁',
@@ -35,7 +39,7 @@ const modes = [
     players: '163',
     color: 'from-[#FFD700] to-[#FFA500]',
     bgColor: 'bg-[#FFD700]',
-    image: '/src/assets/mode-racing.png'
+    image: modeRacing
   }
 ];
 
