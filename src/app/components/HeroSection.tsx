@@ -9,9 +9,8 @@ export function HeroSection() {
         {/* Gradient sky background */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#4A90E2] via-[#7B68EE] to-[#1a1a2e]"></div>
         
-        {/* Space background image - translucent */}
-        {/* TODO: Add space-background.png to src/assets/ */}
-        {/* <div 
+        
+        <div 
           className="absolute inset-0 opacity-20"
           style={{
             backgroundImage: `url('/src/assets/space-background.png')`,
@@ -19,7 +18,7 @@ export function HeroSection() {
             backgroundPosition: 'center',
             imageRendering: 'pixelated'
           }}
-        /> */}
+        />
         
         {/* Animated stars */}
         <div className="absolute inset-0">
@@ -72,12 +71,10 @@ export function HeroSection() {
                 JOIN THE
               </div>
               <div
-                className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl mb-3 md:mb-4"
+                className="text-3xl sm:text-4xl md:text-6xl text-white lg:text-7xl mb-3 md:mb-4"
                 style={{
                   fontFamily: "'Press Start 2P', cursive",
-                  background: 'linear-gradient(180deg, #FFD700 0%, #FF9A00 100%)',
                   WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
                   textShadow: '3px 3px 6px rgba(0,0,0,0.6)',
                   WebkitTextStroke: '1px rgba(0,0,0,0.6)'
                 }}
@@ -138,8 +135,7 @@ export function HeroSection() {
           {/* Right side - Character image */}
           <div className="flex-1 flex items-center justify-center">
             <div className="relative">
-              {/* TODO: Add hero-character.png to src/assets/ */}
-              {/* <img 
+              <img 
                 src="/src/assets/hero-character.png"
                 alt="SpaceCraft Character"
                 className="w-64 h-64 md:w-96 md:h-96 object-contain drop-shadow-2xl animate-float"
@@ -147,8 +143,7 @@ export function HeroSection() {
                   imageRendering: 'pixelated',
                   filter: 'drop-shadow(0 20px 40px rgba(0,0,0,0.5))'
                 }}
-              /> */}
-              <div className="w-64 h-64 md:w-96 md:h-96 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg border-4 border-white/20 flex items-center justify-center text-white text-xl" style={{ fontFamily: "'Press Start 2P', cursive" }}>IMAGE</div>
+              />
             </div>
           </div>
         </div>
